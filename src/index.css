@@ -1,0 +1,110 @@
+  @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Mulish:wght@300&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header{
+  height: 10vh;
+  padding: 0 5vh;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #FF8008;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  color: #4A569D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Alex Brush', cursive;
+}
+
+.footer{
+  height: 5vh;
+  width: 100%;
+  padding: 0 5vh;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #333333;
+  color: #e9d362;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  font-family: 'Alex Brush', cursive;
+}
+
+.modal{
+  height: 450px;
+  width: 400px;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.create-todo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.action-btn{
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.main{
+  height: calc(100vh - 15vh);
+  width: 100%;
+  background-color: #ddd6f3;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.ticket{
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.operation{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.ticket-status{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #4A569D;
+  color: white;
+}
+
+#standard-basic{
+  text-decoration: none;
+  border: thin solid gray;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
